@@ -182,7 +182,7 @@ function Example() {
 
 #### Detecting Focus Entering and Leaving {#detecting-focus-entering-and-leaving}
 
-부모 엘리먼트 바깥 영역으로부터 발생한 이벤트가 포커스 또는 블러중인지 구분하기 위해 `currentTarget`과 `relatedTarget`을 사용할 수 있습니다. 다음은 복사해서 붙여넣을 수 있는 데모로 자식 엘리먼트 또는 엘리먼트 자체에 포커스 중인지, 전체 하위 트리에 포커스가 되고 있는지 사라지고 있는지 구별할 수 있는 방법을 보여줍니다.
+부모 엘리먼트 바깥 영역으로부터 발생한 이벤트가 포커스 또는 블러 중인지 구분하기 위해 `currentTarget`과 `relatedTarget`을 사용할 수 있습니다. 다음은 복사해서 붙여넣을 수 있는 데모로 자식 엘리먼트 또는 엘리먼트 자체에 포커스 중인지, 전체 하위 트리에 포커스가 되고 있는지 사라지고 있는지 구별할 수 있는 방법을 보여줍니다.
 
 ```javascript
 function Example() {
